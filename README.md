@@ -1,5 +1,7 @@
 # Godot Logging Util
 
+![](icon.png)
+
 A logging util for Godot Engine 3.0
 
 ## Features
