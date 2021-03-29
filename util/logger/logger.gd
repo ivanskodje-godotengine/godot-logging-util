@@ -132,7 +132,7 @@ class DummyFileWriter:
 	func _init():
 		pass
 	
-	func write(log_line):
+	func write(_log_line):
 		pass
 
 # DummyLog prevents logging when we have disabled logging.
@@ -141,20 +141,20 @@ class DummyLog:
 	func _init():
 		pass
 	
-	func start(function_name):
+	func start(_function_name):
 		pass
 	
 	func end():
 		pass
 	
-	func info(message, function_name = ""):
+	func info(_message, _function_name = ""):
 		pass
 	
-	func debug(message, function_name = ""):
+	func debug(_message, _function_name = ""):
 		pass
 	
-	func warn(message, function_name = ""):
+	func warn(_message, _function_name = ""):
 		pass
 	
-	func error(message, function_name = ""):
+	func error(_message, _function_name = ""):
 		pass
